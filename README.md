@@ -17,6 +17,7 @@ Nous aurions probablement préféré un exercice avec moins de compréhension et
 
 ```
 git clone https://github.com/Theomariee/MDI_DockerOpenAI.git
+cd MDI_DockerOpenAI
 docker build -t opencvmaven .
 ```
 
