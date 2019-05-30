@@ -1,6 +1,6 @@
 # MDI - Docker (OpenCV)
 
-Le but de ce TP était, à travers l'exemple de l'utilisation de la librairie **OpenCV**, d'essayer de "conteneriser" un applicatif.
+Le but de ce TP était, à travers l'exemple de l'utilisation de la librairie **OpenCV** (et non OpenAI), d'essayer de "conteneriser" un applicatif.
 Nous avons, dans un premier temps, suivi les étapes nécessaires à la compilation d'OpenCV, à partir du code source disponible sur le GiHub associé.
 Chaque commande/étape était copiée dans un fichier texte pour permettre de construire un récapitulatif de la marche complète à suivre pour obtenir le fichier .jar nécessaire à l'applicatif final.
 Nous avons eu beaucoup de soucis à essayer de produire ce fichier, bien que nous ayons suivi la documentation officielle et autres tutoriels pour arriver à cette fin.
