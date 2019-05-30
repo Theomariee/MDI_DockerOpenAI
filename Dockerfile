@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:stretch
 
 WORKDIR /app
 
@@ -10,8 +10,11 @@ EXPOSE 8080
 RUN apt-get update \
 && apt-get install -y build-essential \
 && apt-get install -y git \
-&& apt-get install -y default-jdk \
+&& apt-get install -y openjdk-8-jdk \
+&& apt-get install -y java-wrappers \
+&& apt-get install -y junit \
 && apt-get install -y cmake \
+&& apt-get install -y software-properties-common \
 && apt-get install -y curl \
 && apt-get install -y libgtk2.0-dev \
 && apt-get install -y libv4l-dev \
